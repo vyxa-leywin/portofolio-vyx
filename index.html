@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>portofolio</title>
+  <!-- Font Awesome CDN -->
+<link 
+  rel="stylesheet" 
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+  integrity="sha512-…(see cdnjs for exact hash)…" 
+  crossorigin="anonymous" 
+  referrerpolicy="no-referrer" 
+/>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a2e0f6c4f1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav id="navbar">
+    <div class="nav-left">Nizar.dev</div>
+    <div class="nav-links">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+    <button id="theme-toggle" title="Toggle Theme">
+      <i class="fas fa-moon"></i>
+    </button>
+  </nav>
+
+  <!-- Hero -->
+<section class="hero" id="home">
+  <div class="parallax-bg"></div>
+  <div class="hero-content">
+    <h1 class="fade-in">Halo, Saya <span class="highlight">Nizar</span></h1>
+    <p class="fade-in">Front-End Developer | UI Designer | Problem Solver</p>
+    <a href="#projects" class="btn fade-in">Lihat Proyek</a>
+  </div>
+</section>
+
+  <!-- About -->
+  <section class="about fade-in" id="about">
+    <div class="card">
+      <div class="profile-pic">
+        <img src="image/zarr.jpg" alt="Foto Profil">
+      </div>
+      <h2>Tentang Saya</h2>
+      <p>
+        Saya pengembang web yang fokus pada desain modern, responsif, dan interaktif.
+        Saya menciptakan pengalaman pengguna yang halus dan menyenangkan menggunakan
+        teknologi web terkini seperti React dan Tailwind.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+<section class="skills fade-in" id="skills">
+  <h2>Keahlian Saya</h2>
+
+  <div class="skill-marquee">
+    <div class="skill-track">
+      <div class="skill-card"><i class="fa-brands fa-html5"></i><p>HTML</p></div>
+      <div class="skill-card"><i class="fa-brands fa-css3-alt"></i><p>CSS</p></div>
+      <div class="skill-card"><i class="fa-brands fa-square-js"></i><p>JavaScript</p></div>
+      <div class="skill-card"><i class="fa-brands fa-react"></i><p>React</p></div>
+      <div class="skill-card"><i class="fa-brands fa-node"></i><p>Node.js</p></div>
+      <div class="skill-card"><i class="fa-brands fa-square-figma"></i><p>Figma</p></div>
+      <div class="skill-card"><i class="fa-brands fa-github"></i></i><p>Git</p></div>
+
+      <!-- Duplicate untuk loop seamless -->
+      <div class="skill-card"><i class="fa-brands fa-html5"></i><p>HTML</p></div>
+      <div class="skill-card"><i class="fa-brands fa-css3-alt"></i><p>CSS</p></div>
+      <div class="skill-card"><i class="fa-brands fa-square-js"></i><p>JavaScript</p></div>
+      <div class="skill-card"><i class="fa-brands fa-react"></i><p>React</p></div>
+      <div class="skill-card"><i class="fa-brands fa-node"></i><p>Node.js</p></div>
+      <div class="skill-card"><i class="fa-brands fa-square-figma"></i><p>Figma</p></div>
+      <div class="skill-card"><i class="fa-brands fa-github"></i></i><p>Git</p></div>
+    </div>
+  </div>
+</section>
+
+  <!-- Projects -->
+  <section class="projects fade-in" id="projects">
+    <h2>Proyek Terbaru</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="image/project1.jpg" alt="Proyek 1">
+        <div class="project-info">
+          <h3>Modern Landing Page</h3>
+          <p>Website modern responsif dengan animasi interaktif dan desain minimalis.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="image/project2.jpg" alt="Proyek 2">
+        <div class="project-info">
+          <h3>Portfolio UI/UX Design</h3>
+          <p>Konsep desain portofolio interaktif menggunakan Figma dan Tailwind.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact fade-in" id="contact">
+    <h2>Kontak Saya</h2>
+    <p>Ingin berkolaborasi atau berdiskusi? Hubungi saya di:</p>
+    <div class="contact-links">
+      <a href="mailto:nizar@example.com"><i class="fas fa-envelope"></i> Email</a>
+      <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Nizar. Made with using HTML, CSS, and JS.
+  </footer>
+  
+  <div class="cursor"></div>
+<script src="script.js"></script>
+</body>
+</html>
